@@ -39,10 +39,10 @@ figure
 scatter(Array(:, 1), Array(:, 2), 'ok', 'filled')
 hold on
 rectangle('Position', [0.5 0 2 1], 'FaceColor',[0.8 .8 .8], 'EdgeColor', [1 1 1])
-line([1.5 1.5], [0.3, 0.6], 'Color', 'black')
 scatter(X0(1), X0(2), 100, 'sk')
 scatter(X02(1), X02(2), 100, '^k')
 scatter(XS(1), XS(2), 100, '*k')
+line([1.5 1.5], [0.3, 0.6], 'Color', 'black')
 
 
 axis equal
