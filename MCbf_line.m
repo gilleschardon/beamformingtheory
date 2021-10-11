@@ -1,5 +1,7 @@
 function MCbf_line(Array, X0, XS, k, yy, N, X02)
 
+  %% author Gilles Chardon, 2021
+  
 a = dictionary(Array, XS, k) * norm(XS-X0);
 zz = 0;
 xx = XS(1);

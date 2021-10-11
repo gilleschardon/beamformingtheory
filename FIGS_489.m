@@ -1,3 +1,6 @@
+
+
+%% author Gilles Chardon, 2021
 %% Bias, variance, MSE 
 
 % Fig 1 position

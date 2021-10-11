@@ -1,4 +1,6 @@
 
+%% author Gilles Chardon, 2021
+
 %% Bias in 2D and 1D
 
 % Figures 1 2 and 3

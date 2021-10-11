@@ -1,5 +1,7 @@
 function [E, B, V,Ep, Bp, Vp,Eps, Bps, Vps] = MCbf_cond(Array, X0, XS, Nt, SNR, KK, Xg, LB, UB)
 
+  %% author Gilles Chardon, 2021
+  
 Nmethods = 4;
 
 Nk = length(KK);

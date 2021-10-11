@@ -1,5 +1,7 @@
 function [B1, B2, B3, B4] = MCbf_contour(Array, X0, XS, k, xx, yy, N, M, X02)
 
+  %% author Gilles Chardon, 2021
+  
 % source
 a = dictionary(Array, XS, k) * norm(XS-X0);
 zz = 0;

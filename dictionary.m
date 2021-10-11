@@ -1,5 +1,7 @@
 function [D, Dx, Dy, Dz] = dictionary(PX, PS, k)
 
+  %% author Gilles Chardon, 2021
+  
 % PX positions of the sources
 % PS positions of the array
 % k wavenumber

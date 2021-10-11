@@ -1,5 +1,7 @@
 function [B1, B2, B3, B4] = BF1234_cond(sig, Xm, Xs, X0, k)
 
+  %% author Gilles Chardon, 2021
+  
 D = dictionary(Xm, Xs, k);
 
 dref = sqrt((Xs(:, 1)-X0(1)).^2 + (Xs(:, 2)-X0(2)).^2 + (Xs(:, 3)-X0(3)).^2)';

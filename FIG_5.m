@@ -1,4 +1,6 @@
 
+%% author Gilles Chardon, 2021
+
 clear all
 M = 3;
 
